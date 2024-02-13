@@ -1,0 +1,3 @@
+insall ansible on windows 
+transfer host key to windows ubuntu from /mnt/c/kr7/downloads
+chmod +x 400 to change permission
