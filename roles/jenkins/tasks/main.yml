@@ -19,7 +19,7 @@
     state: present
 
 - name: show initialpassword
-  command: cat /var/lib/jenkins/secrets/anitalAdminPassword
+  command: cat /var/lib/jenkins/secrets/initalAdminPassword
   register: command_output
 
 - name: Print passowrd
