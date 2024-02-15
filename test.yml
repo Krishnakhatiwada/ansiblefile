@@ -7,6 +7,4 @@
     ansible_ssh_private_key_file: "/home/ubuntu/hostserverkey.pem"
   roles:
     - jenkins
-    - nginx
-
-        
+    - nginx        
