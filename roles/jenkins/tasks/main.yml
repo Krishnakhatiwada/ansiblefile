@@ -19,8 +19,8 @@
     state: present
 
 - name: show initialpassword
-  command: cat /var/lib/jenkins/secrets/initalAdminPassword
+  command: cat /var/lib/jenkins/secrets/initialAdminPassword
   register: command_output
 
 - name: Print passowrd
-  debug: msg="{{command_prompt}}"
+  debug: msg="{{command_output}}"
